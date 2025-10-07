@@ -2,9 +2,11 @@
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
-data/
-*.csv
 *.joblib
 *.pkl
 artifacts/
 figures/
+
+# не игнорируем данные и ноутбуки
+!data/
+!notebooks/
